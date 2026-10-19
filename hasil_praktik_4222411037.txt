@@ -1,0 +1,19 @@
+NIM            : 4222411037
+Nama           : Elyas Wisnu Perdana
+Waktu          : 2026-10-19 15:03:10
+Pengguna/Mesin : user / LAPTOP-V3D9D25B
+GPU            : NVIDIA GeForce RTX 3050 6GB Laptop GPU
+Model          : yolov8n
+Epochs         : 30
+imgsz / batch  : 640 / 16
+Seed           : 42
+Perubahan E3   : epochs=60
+Hash data.yaml : 2d82d4affc
+
+eksperimen epoch_terbaik  precision  recall  mAP50  mAP50-95 durasi_menit
+        E1            29     0.9034  0.8757 0.9205    0.5876         14.6
+        E2            30     0.8665  0.7965 0.8740    0.5109         13.4
+        E3            60     0.9109  0.8890 0.9316    0.6034         28.8
+ TEST (E3)                   0.9066  0.9014 0.9390    0.6012             
+
+Model terbaik (val): E3
