@@ -145,7 +145,7 @@ RE-503-PJ1/
 └── README.md
 ```
 
-Dataset: `[isi tautan Google Drive atau keterangan dataset_v1.zip bila diunggah]`.
+
 
 Cara mengulang:
 
